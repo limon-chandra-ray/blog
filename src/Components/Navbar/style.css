@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    margin: 0;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    display:flex;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+}

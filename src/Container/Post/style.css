@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.countp{
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+}
