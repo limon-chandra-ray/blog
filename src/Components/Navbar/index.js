@@ -6,6 +6,7 @@ import Home from '../../Container/Home'
 import About from '../../Container/About'
 import Post from '../../Container/Post'
 import ContactUs from '../../Container/ContactUs'
+import BlogPost from '../BlogPost';
 
 
 
@@ -34,6 +35,7 @@ export default function Navbar() {
                 <Route path='/post' component={Post}/>
                 <Route path='/contuct' component={ContactUs}/>
                 <Route path='/' exact component={Home}/>
+                <Route path='/homevalue' exact component={BlogPost}/>
             </Switch>
         </Router>
         

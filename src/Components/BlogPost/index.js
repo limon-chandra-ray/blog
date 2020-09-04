@@ -16,7 +16,7 @@ const BlogPost = (props) => {
             <Card>
                 <div className="cardHeader">
                     <h5 className="category" >Featured</h5>
-                    <p className="blogtitle">{posts.blogTitle}</p>
+                    <p className="blogtitle">limon</p>
                     <span className="poston">postedOn July 21, 2016 Faiz Khan</span>
                     <img className="blogimage" alt="featured" src={require('../../media/Blogimage/memories-from.jpg')}></img>
                 </div>
